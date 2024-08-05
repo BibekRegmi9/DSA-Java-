@@ -19,3 +19,17 @@ F
 src/recursion/GCD.java,a\5\a541a791b132122efacf32e378995372515ea4d8
 S
 #src/recursion/array/PrintArray.java,c\6\c697fb44bf64758f2642d0de297032b479c4ba1e
+S
+#src/recursion/array/ReverseArr.java,e\9\e91268b1dc6e5475bd2f0ff0b928a982d5f2f29f
+Q
+!src/recursion/array/SumOfArr.java,a\b\abd978f3cb9b0651272c83865b5094e65be840cd
+U
+%src/recursion/array/FindMininArr.java,6\a\6a69e329d50c3b9d2b7580c9756cf86598de9a1c
+T
+$src/recursion/string/Palindrome.java,d\a\da773c803f4c7067de6dc17150e629dcb5fa0c04
+U
+%src/recursion/string/CountVowels.java,b\2\b2b741d76823e6f9dee65bb76efe7180dc5493c0
+W
+'src/recursion/string/ReverseString.java,9\7\97da5704b89f1cd8e5b686d7c4fa4db6e2d3e8b8
+^
+.src/recursion/string/LowerCaseToUpperCase.java,f\e\fe235061aa6cba781b336dabe0b07f0415195947
