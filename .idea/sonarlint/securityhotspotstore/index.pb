@@ -39,3 +39,5 @@ U
 %src/recursion/array/BinarySearch.java,0\a\0a437ef4e22e678f0d2a55fc05a2ef758e854425
 T
 $src/recursion/sorting/MergeSort.java,e\d\edfb5f0333e01ff07d6117fb494cdba8bb964e2f
+T
+$src/recursion/sorting/QuickSort.java,7\d\7d3a0aba0fdb1d6a0462c4a0bd405e278374349f
