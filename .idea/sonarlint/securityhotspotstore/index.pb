@@ -33,3 +33,9 @@ W
 'src/recursion/string/ReverseString.java,9\7\97da5704b89f1cd8e5b686d7c4fa4db6e2d3e8b8
 ^
 .src/recursion/string/LowerCaseToUpperCase.java,f\e\fe235061aa6cba781b336dabe0b07f0415195947
+U
+%src/recursion/array/LinearSearch.java,c\0\c0dd2e088cf57caff2146c58ccfb92270f4fd354
+U
+%src/recursion/array/BinarySearch.java,0\a\0a437ef4e22e678f0d2a55fc05a2ef758e854425
+T
+$src/recursion/sorting/MergeSort.java,e\d\edfb5f0333e01ff07d6117fb494cdba8bb964e2f
