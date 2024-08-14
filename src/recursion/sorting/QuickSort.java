@@ -19,7 +19,7 @@ public class QuickSort {
         quickSort(arr, start, pivot - 1);
         quickSort(arr, pivot + 1, end);
     }
-
+//    {10, 7, 8, 9, 1, 5}
     public static int partition(int[] arr, int start, int end){
         int pos = start;
 

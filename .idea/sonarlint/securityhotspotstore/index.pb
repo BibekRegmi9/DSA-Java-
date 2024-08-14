@@ -41,3 +41,11 @@ T
 $src/recursion/sorting/MergeSort.java,e\d\edfb5f0333e01ff07d6117fb494cdba8bb964e2f
 T
 $src/recursion/sorting/QuickSort.java,7\d\7d3a0aba0fdb1d6a0462c4a0bd405e278374349f
+R
+"src/recursion/sorting/Example.java,e\f\ef3905adf6dac148802236780d0b5720f6f573a6
+Z
+*src/recursion/subsequence/Subsequence.java,b\6\b6cdbd94b983703b1a5dbbd79ea5371bce0f06bb
+U
+%src/recursion/permutation/KeyPad.java,f\c\fce683b132a289f72441647991b706cf9b4c3095
+7
+DSA.iml,0\b\0b0bc790821d14fa4357c82d64413aa5af5080d6
