@@ -26,6 +26,5 @@ public class Subsequence {
         temp.add(arr[index]);
         subSequence(arr, index + 1, ans, temp);
 
-         }
-
+    }
 }
