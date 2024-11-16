@@ -2,10 +2,11 @@ package array.binarysearch;
 
 public class FindSquareRoot {
     public static void main(String[] args) {
-
+        int ans = mySqrt(2147395599);
+        System.out.println(ans);
     }
 
-    public int mySqrt(int x) {
+    public static int mySqrt(int x) {
         int start = 0;
         int end = x;
 
@@ -14,9 +15,11 @@ public class FindSquareRoot {
         while(start <= end){
             int mid = start + (end - start)/2;
 
-            if(mid * mid == x){
+//            if(mid * mid == x){
+            if(mid == x/mid){
                 return mid;
-            } else if(mid * mid < x){
+//            } else if(mid * mid < x){
+            } else if(mid < x/mid){
                 ans = mid;
                 start = mid + 1;
             } else {
