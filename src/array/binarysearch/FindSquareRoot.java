@@ -8,7 +8,7 @@ public class FindSquareRoot {
 
     public static int mySqrt(int x) {
         if(x < 2){
-            return X;
+            return x;
         }
 
         int start = 0;
