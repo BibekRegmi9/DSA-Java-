@@ -1,8 +1,48 @@
 package array.binarysearch;
 
+import java.util.Arrays;
+
 public class PainterPartition {
     public static void main(String[] args) {
+        int[] arr = {5, 10, 30, 20, 15};
+        int k = 3;
+        Long ans = solution(arr, k);
+        System.out.println(ans);
+    }
 
+    public static long solution(int[] arr, int k){
+        if(k > arr.length){
+            return -1;
+        }
+
+        long start = Arrays.stream(arr).max().getAsInt();
+        long end = Arrays.stream(arr).sum();
+        long ans = -1;
+
+        while(start <= end){
+            long mid = start + (end - start)/2;
+
+            int count = 1;
+            int walls = 0;
+
+            for(int i = 0; i < arr.length; i++){
+                walls += arr[i];
+
+                if(walls > mid){
+                    count++;
+                    walls = arr[i];
+                }
+            }
+
+            if(count <= k){
+                ans = mid;
+                end = mid - 1;
+            } else {
+                start = mid + 1;
+            }
+        }
+
+        return ans;
     }
     static long minTime(int[] arr,int n,int k){
 
