@@ -15,6 +15,7 @@ public class MajorityElement {
                 map.put(arr[i], 1);
             }
         }
+        System.out.println(map);
 
         Set<Integer> keySet = map.keySet();
         for(Integer key: keySet){
