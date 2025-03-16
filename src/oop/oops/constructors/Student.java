@@ -10,6 +10,13 @@ public class Student {
         this.age = 20;
     }
 
+    // paramatrized contrructor
+    public Student(String name, int age, int id){
+        this.name = name;
+        this.age = age;
+        this.id = id;
+    }
+
 
 
     public int getId() {
